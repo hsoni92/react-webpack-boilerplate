@@ -35,5 +35,15 @@ Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and copied to `/apacheBuild` as `build.zip`
-`build.zip` is ready to deployed on any apache server.
+This `build.zip` is ready to deployed on any apache server.
 
+
+### `./start-apache-webserver`
+
+Deploys an apache container with `build` as root directory.
+Update container parameters using `docker-config.sh`<br />
+
+
+### `./deploy-build-webserver`
+
+Rebuild ReactApp in `/build` and restart the apache container.<br />
