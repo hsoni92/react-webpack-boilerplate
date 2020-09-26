@@ -1,0 +1,31 @@
+@import url("../../../css/common.css");
+
+.site-home-page-ghost-wrapper {
+  background-color: #ffa800;
+  background-size: 100%;
+}
+
+.intro-liner {
+  font-family: 'Palanquin';
+  font-style: normal;
+  font-weight: 700;
+  color: white !important;
+  font-size: 5em;
+  text-align: left;
+  line-height: 1em;
+}
+
+.intro-liner-thin {
+  font-weight: 100;
+}
+
+.intro-liner-para {
+  font-weight: 100;
+  font-size: 0.4em;
+  line-height: 1.1em;
+  background-color: rgba(0,0,0,0.5);
+  padding: 0.7em 0.2em 0.7em 0.2em;
+  margin-top: 0.7em;
+  border-radius: 3px;
+  width: auto;
+}
